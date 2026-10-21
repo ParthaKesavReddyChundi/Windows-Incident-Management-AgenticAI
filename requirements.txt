@@ -1,0 +1,46 @@
+# ─── Phase 2: Core Backend Foundation ────────────────────────────────────────
+# Pinned to compatible versions. See docs/dependency_decisions.md for rationale.
+
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.34.3
+python-multipart==0.0.20
+aiofiles==24.1.0
+
+# Data validation & config
+pydantic==2.12.5
+pydantic-settings==2.15.0
+python-dotenv==1.1.0
+
+# HTTP client (for health checks and API calls)
+httpx==0.28.1
+
+# ─── Phase 3: Telemetry ───────────────────────────────────────────────────────
+psutil==7.0.0
+pywin32==312        # Windows-only
+
+# ─── Phase 4: Deep Learning & Data ───────────────────────────────────────────
+# torch is installed separately (CUDA build) — see docs/install_torch.md
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.8.0
+
+# ─── Phase 5: Database ────────────────────────────────────────────────────────
+SQLAlchemy==2.0.51
+aiosqlite==0.21.0
+
+# ─── Phase 6: RAG ────────────────────────────────────────────────────────────
+transformers>=4.48.0,<5.0.0
+sentence-transformers>=3.4.0,<4.0.0
+chromadb>=1.5.0
+
+# ─── Phase 7: Agents & LLM ───────────────────────────────────────────────────
+langchain>=1.4.0
+langchain-core>=1.6.0
+langchain-community>=0.4.0
+langgraph>=1.2.0
+langchain-ollama>=1.1.0
+ollama>=0.6.0
+
+# ─── WebSocket support ────────────────────────────────────────────────────────
+websockets==15.0.1

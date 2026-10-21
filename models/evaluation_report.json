@@ -1,0 +1,141 @@
+{
+  "autoencoder": {
+    "accuracy": 0.9725183605780621,
+    "precision": 0.9503637141634574,
+    "recall": 1.0,
+    "f1_score": 0.9745502413339184,
+    "roc_auc": 0.9999653309320126,
+    "pr_auc": 0.999968065179678,
+    "confusion_matrix": {
+      "tn": 1884,
+      "fp": 116,
+      "fn": 0,
+      "tp": 2221
+    },
+    "total_samples": 4221,
+    "true_anomalies": 2221,
+    "predicted_anomalies": 2337,
+    "threshold": 0.0023910060524940475,
+    "attack_type_breakdown": [
+      {
+        "attack_type": "normal",
+        "n_samples": 2000,
+        "n_attacks": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      {
+        "attack_type": "ddos",
+        "n_samples": 918,
+        "n_attacks": 918,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      {
+        "attack_type": "password",
+        "n_samples": 719,
+        "n_attacks": 719,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      {
+        "attack_type": "xss",
+        "n_samples": 256,
+        "n_attacks": 256,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      {
+        "attack_type": "injection",
+        "n_samples": 120,
+        "n_attacks": 120,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      {
+        "attack_type": "dos",
+        "n_samples": 105,
+        "n_attacks": 105,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      {
+        "attack_type": "scanning",
+        "n_samples": 99,
+        "n_attacks": 99,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      {
+        "attack_type": "mitm",
+        "n_samples": 4,
+        "n_attacks": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      }
+    ]
+  },
+  "isolation_forest_baseline": {
+    "accuracy": 0.767590618336887,
+    "precision": 0.693628981886321,
+    "recall": 1.0,
+    "f1_score": 0.8191038170754195,
+    "roc_auc": 0.9860146330481765,
+    "pr_auc": 0.9852862506815822,
+    "confusion_matrix": {
+      "tn": 1019,
+      "fp": 981,
+      "fn": 0,
+      "tp": 2221
+    },
+    "total_samples": 4221,
+    "true_anomalies": 2221,
+    "predicted_anomalies": 3202
+  },
+  "comparison": {
+    "accuracy": {
+      "autoencoder": 0.9725,
+      "isolation_forest": 0.7676,
+      "winner": "autoencoder",
+      "delta": 0.2049
+    },
+    "precision": {
+      "autoencoder": 0.9504,
+      "isolation_forest": 0.6936,
+      "winner": "autoencoder",
+      "delta": 0.2567
+    },
+    "recall": {
+      "autoencoder": 1.0,
+      "isolation_forest": 1.0,
+      "winner": "autoencoder",
+      "delta": 0.0
+    },
+    "f1_score": {
+      "autoencoder": 0.9746,
+      "isolation_forest": 0.8191,
+      "winner": "autoencoder",
+      "delta": 0.1554
+    },
+    "roc_auc": {
+      "autoencoder": 1.0,
+      "isolation_forest": 0.986,
+      "winner": "autoencoder",
+      "delta": 0.014
+    },
+    "pr_auc": {
+      "autoencoder": 1.0,
+      "isolation_forest": 0.9853,
+      "winner": "autoencoder",
+      "delta": 0.0147
+    }
+  }
+}

@@ -1,0 +1,4386 @@
+[
+  {
+    "snapshot_id": "a699a987-c36f-40ba-ac72-f0d4f6725549",
+    "timestamp": "2026-10-18T05:47:03.713257Z",
+    "source": "simulated",
+    "collection_latency_ms": 4506.95,
+    "cpu": {
+      "percent": 94.46,
+      "per_core": [
+        91.22,
+        90.98,
+        90.21,
+        94.33,
+        98.89,
+        95.84,
+        96.68,
+        90.29,
+        92.6,
+        95.04,
+        89.93,
+        96.47,
+        95.68,
+        94.49,
+        90.76,
+        93.56
+      ],
+      "freq_mhz": 2400.0,
+      "load_avg_1m": null
+    },
+    "memory": {
+      "total_bytes": 16858472448,
+      "available_bytes": 1806860288,
+      "used_bytes": 15051612160,
+      "percent": 89.3,
+      "swap_total_bytes": 16965795840,
+      "swap_used_bytes": 1680953344,
+      "swap_percent": 9.9
+    },
+    "disks": [
+      {
+        "device": "C:\\",
+        "mountpoint": "C:\\",
+        "total_bytes": 392989503488,
+        "used_bytes": 354839076864,
+        "free_bytes": 38150426624,
+        "percent": 90.3,
+        "read_bytes_sec": null,
+        "write_bytes_sec": null
+      },
+      {
+        "device": "D:\\",
+        "mountpoint": "D:\\",
+        "total_bytes": 314571747328,
+        "used_bytes": 85128302592,
+        "free_bytes": 229443444736,
+        "percent": 27.1,
+        "read_bytes_sec": null,
+        "write_bytes_sec": null
+      },
+      {
+        "device": "E:\\",
+        "mountpoint": "E:\\",
+        "total_bytes": 314571747328,
+        "used_bytes": 232400076800,
+        "free_bytes": 82171670528,
+        "percent": 73.9,
+        "read_bytes_sec": null,
+        "write_bytes_sec": null
+      }
+    ],
+    "networks": [
+      {
+        "interface": "Wi-Fi",
+        "bytes_sent_sec": 471013.1,
+        "bytes_recv_sec": 15569.3,
+        "packets_sent_sec": 51.89,
+        "packets_recv_sec": 168.7,
+        "errors_in": 0,
+        "errors_out": 0,
+        "connections_count": null
+      },
+      {
+        "interface": "vEthernet (WSLCore)",
+        "bytes_sent_sec": 0.0,
+        "bytes_recv_sec": 0.0,
+        "packets_sent_sec": 0.0,
+        "packets_recv_sec": 0.0,
+        "errors_in": 0,
+        "errors_out": 0,
+        "connections_count": null
+      }
+    ],
+    "top_processes": [
+      {
+        "pid": 9991,
+        "name": "crypto_worker_sim.exe",
+        "cpu_percent": 80.29,
+        "memory_mb": 350.0,
+        "status": "running",
+        "username": "SYSTEM",
+        "create_time": null
+      },
+      {
+        "pid": 0,
+        "name": "System Idle Process",
+        "cpu_percent": 847.0,
+        "memory_mb": 0.01,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 16440,
+        "name": "Antigravity.exe",
+        "cpu_percent": 119.9,
+        "memory_mb": 487.49,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 16976,
+        "name": "chrome.exe",
+        "cpu_percent": 85.3,
+        "memory_mb": 980.02,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 17280,
+        "name": "python.exe",
+        "cpu_percent": 82.3,
+        "memory_mb": 1054.8,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 30240,
+        "name": "MsMpEng.exe",
+        "cpu_percent": 78.2,
+        "memory_mb": 318.82,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 18440,
+        "name": "chrome.exe",
+        "cpu_percent": 48.9,
+        "memory_mb": 429.32,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 18684,
+        "name": "Antigravity.exe",
+        "cpu_percent": 45.0,
+        "memory_mb": 193.39,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 4,
+        "name": "System",
+        "cpu_percent": 27.3,
+        "memory_mb": 6.36,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 21124,
+        "name": "dwm.exe",
+        "cpu_percent": 25.3,
+        "memory_mb": 143.3,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 31488,
+        "name": "chrome.exe",
+        "cpu_percent": 24.9,
+        "memory_mb": 858.21,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 1580,
+        "name": "services.exe",
+        "cpu_percent": 18.1,
+        "memory_mb": 14.76,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 2704,
+        "name": "msedgewebview2.exe",
+        "cpu_percent": 14.7,
+        "memory_mb": 69.72,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 6492,
+        "name": "language_server.exe",
+        "cpu_percent": 12.2,
+        "memory_mb": 261.17,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 13852,
+        "name": "servicehost.exe",
+        "cpu_percent": 11.0,
+        "memory_mb": 56.44,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 15656,
+        "name": "audiodg.exe",
+        "cpu_percent": 7.0,
+        "memory_mb": 109.29,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 31248,
+        "name": "OmenCommandCenterBackground.exe",
+        "cpu_percent": 6.7,
+        "memory_mb": 130.66,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 6320,
+        "name": "svchost.exe",
+        "cpu_percent": 6.2,
+        "memory_mb": 44.44,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 23996,
+        "name": "msedgewebview2.exe",
+        "cpu_percent": 6.1,
+        "memory_mb": 76.27,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 11808,
+        "name": "SynTPEnh.exe",
+        "cpu_percent": 5.5,
+        "memory_mb": 24.38,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      }
+    ],
+    "services": [
+      {
+        "name": "ADPSvc",
+        "display_name": "Aggregated Data Platform Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ALG",
+        "display_name": "Application Layer Gateway Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AntiCheatExpert Protection",
+        "display_name": "AntiCheatExpert Protection",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AppIDSvc",
+        "display_name": "Application Identity",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Appinfo",
+        "display_name": "Application Information",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "AppReadiness",
+        "display_name": "App Readiness",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AppXSvc",
+        "display_name": "AppX Deployment Service (AppXSVC)",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "ApxSvc",
+        "display_name": "Windows Virtual Audio Device Proxy Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "aspnet_state",
+        "display_name": "ASP.NET State Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AudioEndpointBuilder",
+        "display_name": "Windows Audio Endpoint Builder",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "Audiosrv",
+        "display_name": "Windows Audio",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "autotimesvc",
+        "display_name": "Cellular Time",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AxInstSV",
+        "display_name": "ActiveX Installer (AxInstSV)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "BDESVC",
+        "display_name": "BitLocker Drive Encryption Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "BEService",
+        "display_name": "BattlEye Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "BFE",
+        "display_name": "Base Filtering Engine",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "BITS",
+        "display_name": "Background Intelligent Transfer Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "BrokerInfrastructure",
+        "display_name": "Background Tasks Infrastructure Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "BTAGService",
+        "display_name": "Bluetooth Audio Gateway Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "BthAvctpSvc",
+        "display_name": "AVCTP service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "bthserv",
+        "display_name": "Bluetooth Support Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "camsvc",
+        "display_name": "Capability Access Manager Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CDPSvc",
+        "display_name": "Connected Devices Platform Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CertPropSvc",
+        "display_name": "Certificate Propagation",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ClickToRunSvc",
+        "display_name": "Microsoft Office Click-to-Run Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "ClipSVC",
+        "display_name": "Client License Service (ClipSVC)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "com.docker.service",
+        "display_name": "Docker Desktop Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "COMSysApp",
+        "display_name": "COM+ System Application",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "CoreMessagingRegistrar",
+        "display_name": "CoreMessaging",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "cplspcon",
+        "display_name": "Intel(R) Content Protection HDCP Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CryptSvc",
+        "display_name": "Cryptographic Services",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DcomLaunch",
+        "display_name": "DCOM Server Process Launcher",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "dcsvc",
+        "display_name": "Declared Configuration(DC) service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "defragsvc",
+        "display_name": "Optimize drives",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DeviceAssociationService",
+        "display_name": "Device Association Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "DeviceInstall",
+        "display_name": "Device Install Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "DevQueryBroker",
+        "display_name": "DevQuery Background Discovery Broker",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Dhcp",
+        "display_name": "DHCP Client",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "diagsvc",
+        "display_name": "Diagnostic Execution Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DiagTrack",
+        "display_name": "Connected User Experiences and Telemetry",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DispBrokerDesktopSvc",
+        "display_name": "Display Policy Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DisplayEnhancementService",
+        "display_name": "Display Enhancement Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "DmEnrollmentSvc",
+        "display_name": "Device Management Enrollment Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "dmwappushservice",
+        "display_name": "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Dnscache",
+        "display_name": "DNS Client",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DoSvc",
+        "display_name": "Delivery Optimization",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "dot3svc",
+        "display_name": "Wired AutoConfig",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DPS",
+        "display_name": "Diagnostic Policy Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "dptftcs",
+        "display_name": "Intel(R) Dynamic Tuning Technology Telemetry Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DsmSvc",
+        "display_name": "Device Setup Manager",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DsSvc",
+        "display_name": "Data Sharing Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "DtsApo4Service",
+        "display_name": "DtsApo4Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DusmSvc",
+        "display_name": "Data Usage",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "EapHost",
+        "display_name": "Extensible Authentication Protocol",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EasyAntiCheat_EOS",
+        "display_name": "Easy Anti-Cheat (Epic Online Services)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "edgeupdate",
+        "display_name": "Microsoft Edge Update Service (edgeupdate)",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "edgeupdatem",
+        "display_name": "Microsoft Edge Update Service (edgeupdatem)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EFS",
+        "display_name": "Encrypting File System (EFS)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "embeddedmode",
+        "display_name": "Embedded Mode",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EntAppSvc",
+        "display_name": "Enterprise App Management Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EpicGamesUpdater",
+        "display_name": "Epic Games Updater",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EpicOnlineServices",
+        "display_name": "Epic Online Services",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EventLog",
+        "display_name": "Windows Event Log",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "EventSystem",
+        "display_name": "COM+ Event System",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "fdPHost",
+        "display_name": "Function Discovery Provider Host",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "FDResPub",
+        "display_name": "Function Discovery Resource Publication",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "fhsvc",
+        "display_name": "File History Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "FileSyncHelper",
+        "display_name": "FileSyncHelper",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "FontCache",
+        "display_name": "Windows Font Cache Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "FontCache3.0.0.0",
+        "display_name": "Windows Presentation Foundation Font Cache 3.0.0.0",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "FrameServer",
+        "display_name": "Windows Camera Frame Server",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "FrameServerMonitor",
+        "display_name": "Windows Camera Frame Server Monitor",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "FvSvc",
+        "display_name": "NVIDIA FrameView SDK service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "GameInputRedistService",
+        "display_name": "GameInput Redist Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GameInputSvc",
+        "display_name": "GameInput Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "GoogleChromeElevationService",
+        "display_name": "Google Chrome Elevation Service (GoogleChromeElevationService)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "gpsvc",
+        "display_name": "Group Policy Client",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GraphicsPerfSvc",
+        "display_name": "GraphicsPerfSvc",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "hidserv",
+        "display_name": "Human Interface Device Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "hns",
+        "display_name": "Host Network Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "HP Comm Recover",
+        "display_name": "HP Comm Recovery",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPAppHelperCap",
+        "display_name": "HP App Helper HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "hpatchmon",
+        "display_name": "Hotpatch Monitoring Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "HPDiagsCap",
+        "display_name": "HP Diagnostics HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPNetworkCap",
+        "display_name": "HP Network HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPOmenCap",
+        "display_name": "HP Omen HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPPrintScanDoctorService",
+        "display_name": "HP Print Scan Doctor Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPSysInfoCap",
+        "display_name": "HP System Info HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HpTouchpointAnalyticsService",
+        "display_name": "HP Insights Analytics",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HvHost",
+        "display_name": "HV Host Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "icssvc",
+        "display_name": "Windows Mobile Hotspot Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "igccservice",
+        "display_name": "Intel(R) Graphics Command Center Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "IKEEXT",
+        "display_name": "IKE and AuthIP IPsec Keying Modules",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "InstallService",
+        "display_name": "Microsoft Store Install Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "Intel(R) Platform License Manager Service",
+        "display_name": "Intel(R) Platform License Manager Service",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "IntelAudioService",
+        "display_name": "Intel(R) Audio Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "InventorySvc",
+        "display_name": "Inventory and Compatibility Appraisal service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "ipfsvc",
+        "display_name": "Intel(R) Innovation Platform Framework Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "iphlpsvc",
+        "display_name": "IP Helper",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "IpxlatCfgSvc",
+        "display_name": "IP Translation Configuration Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "IsoEnvBroker",
+        "display_name": "Isolation Environment Broker",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "jhi_service",
+        "display_name": "Intel(R) Dynamic Application Loader Host Interface Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "KeyIso",
+        "display_name": "CNG Key Isolation",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "KtmRm",
+        "display_name": "KtmRm for Distributed Transaction Coordinator",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "LanmanServer",
+        "display_name": "Server",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "LanmanWorkstation",
+        "display_name": "Workstation",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "lfsvc",
+        "display_name": "Geolocation Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "LicenseManager",
+        "display_name": "Windows License Manager Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "lltdsvc",
+        "display_name": "Link-Layer Topology Discovery Mapper",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "lmhosts",
+        "display_name": "TCP/IP NetBIOS Helper",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "LocalKdc",
+        "display_name": "Kerberos Local Key Distribution Center",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "LSM",
+        "display_name": "Local Session Manager",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "LxpSvc",
+        "display_name": "Language Experience Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "MapsBroker",
+        "display_name": "Downloaded Maps Manager",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "McAfee WebAdvisor",
+        "display_name": "McAfee WebAdvisor",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "McmSvc",
+        "display_name": "Mobile Connectivity Management Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "McpManagementService",
+        "display_name": "McpManagementService",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "MDCoreSvc",
+        "display_name": "Microsoft Defender Core Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "MicrosoftCopilotElevationService",
+        "display_name": "Microsoft Copilot Elevation Service (MicrosoftCopilotElevationService)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "MicrosoftEdgeElevationService",
+        "display_name": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "midisrv",
+        "display_name": "Windows MIDI Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "MongoDB",
+        "display_name": "MongoDB Server (MongoDB)",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "MozillaMaintenance",
+        "display_name": "Mozilla Maintenance Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "mpssvc",
+        "display_name": "Windows Defender Firewall",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "MSDTC",
+        "display_name": "Distributed Transaction Coordinator",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "MSiSCSI",
+        "display_name": "Microsoft iSCSI Initiator Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "msiserver",
+        "display_name": "Windows Installer",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NaturalAuthentication",
+        "display_name": "Natural Authentication",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NcaSvc",
+        "display_name": "Network Connectivity Assistant",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NcbService",
+        "display_name": "Network Connection Broker",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "NcdAutoSetup",
+        "display_name": "Network Connected Devices Auto-Setup",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Netlogon",
+        "display_name": "Netlogon",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Netman",
+        "display_name": "Network Connections",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "netprofm",
+        "display_name": "Network List Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "NetSetupSvc",
+        "display_name": "Network Setup Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "NetTcpPortSharing",
+        "display_name": "Net.Tcp Port Sharing Service",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "NgcCtnrSvc",
+        "display_name": "Microsoft Passport Container",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NgcSvc",
+        "display_name": "Microsoft Passport",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NGS",
+        "display_name": "Nexon Game Security Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NlaSvc",
+        "display_name": "Network Location Awareness",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "nsi",
+        "display_name": "Network Store Interface Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "nvagent",
+        "display_name": "Network Virtualization Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "NvContainerLocalSystem",
+        "display_name": "NVIDIA LocalSystem Container",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NVDisplay.ContainerLocalSystem",
+        "display_name": "NVIDIA Display Container LS",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "OneDrive Updater Service",
+        "display_name": "OneDrive Updater Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PcaSvc",
+        "display_name": "Program Compatibility Assistant Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "pemAgent",
+        "display_name": "Postgres Enterprise Manager - pemAgent",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "PEMHTTPD-x64",
+        "display_name": "PEMHTTPD-x64",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "perceptionsimulation",
+        "display_name": "Windows Perception Simulation Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PerfHost",
+        "display_name": "Performance Counter DLL Host",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "pgagent-pg18",
+        "display_name": "PostgreSQL Scheduling Agent - pgagent-pg18",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "pgbouncer",
+        "display_name": "pgbouncer",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "PhoneSvc",
+        "display_name": "Phone Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "pla",
+        "display_name": "Performance Logs & Alerts",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PlugPlay",
+        "display_name": "Plug and Play",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "PolicyAgent",
+        "display_name": "IPsec Policy Agent",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Power",
+        "display_name": "Power",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "PrintDeviceConfigurationService",
+        "display_name": "Print Device Configuration Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PrintNotify",
+        "display_name": "Printer Extensions and Notifications",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PrintScanBrokerService",
+        "display_name": "PrintScanBrokerService",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ProfSvc",
+        "display_name": "User Profile Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "ProtonVPN Service",
+        "display_name": "ProtonVPN Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Publication Service",
+        "display_name": "Publication Service for xDB Replication Server.",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "PushToInstall",
+        "display_name": "Windows PushToInstall Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "QWAVE",
+        "display_name": "Quality Windows Audio Video Experience",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "RasAuto",
+        "display_name": "Remote Access Auto Connection Manager",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "RasMan",
+        "display_name": "Remote Access Connection Manager",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "Redis",
+        "display_name": "Redis",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "refsdedupsvc",
+        "display_name": "ReFS Dedup Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "RemoteAccess",
+        "display_name": "Routing and Remote Access",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "RemoteRegistry",
+        "display_name": "Remote Registry",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "RetailDemo",
+        "display_name": "Retail Demo Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "RmSvc",
+        "display_name": "Radio Management Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "RpcEptMapper",
+        "display_name": "RPC Endpoint Mapper",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "RpcLocator",
+        "display_name": "Remote Procedure Call (RPC) Locator",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "RpcSs",
+        "display_name": "Remote Procedure Call (RPC)",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "RtkAudioUniversalService",
+        "display_name": "Realtek Audio Universal Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SamSs",
+        "display_name": "Security Accounts Manager",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SCardSvr",
+        "display_name": "Smart Card",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ScDeviceEnum",
+        "display_name": "Smart Card Device Enumeration Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Schedule",
+        "display_name": "Task Scheduler",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SCPolicySvc",
+        "display_name": "Smart Card Removal Policy",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SDRSVC",
+        "display_name": "Windows Backup",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "seclogon",
+        "display_name": "Secondary Logon",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SecurityHealthService",
+        "display_name": "Windows Security Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "SEMgrSvc",
+        "display_name": "Payments and NFC/SE Manager",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SENS",
+        "display_name": "System Event Notification Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SensorDataService",
+        "display_name": "Sensor Data Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SensorService",
+        "display_name": "Sensor Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "SensrSvc",
+        "display_name": "Sensor Monitoring Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SessionEnv",
+        "display_name": "Remote Desktop Configuration",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SharedAccess",
+        "display_name": "Internet Connection Sharing (ICS)",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "ShellHWDetection",
+        "display_name": "Shell Hardware Detection",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "shpamsvc",
+        "display_name": "Shared PC Account Manager",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "smphost",
+        "display_name": "Microsoft Storage Spaces SMP",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SmsRouter",
+        "display_name": "Microsoft Windows SMS Router Service.",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SNMPTrap",
+        "display_name": "SNMP Trap",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Spooler",
+        "display_name": "Print Spooler",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "sppsvc",
+        "display_name": "Software Protection",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SQLWriter",
+        "display_name": "SQL Server VSS Writer",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SSDPSRV",
+        "display_name": "SSDP Discovery",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "ssh-agent",
+        "display_name": "OpenSSH Authentication Agent",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "SstpSvc",
+        "display_name": "Secure Socket Tunneling Protocol Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "StateRepository",
+        "display_name": "State Repository Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "Steam Client Service",
+        "display_name": "Steam Client Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "StiSvc",
+        "display_name": "Windows Image Acquisition (WIA)",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "StorSvc",
+        "display_name": "Storage Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "Subscription Service",
+        "display_name": "Subscription Service for xDB Replication Server.",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "svsvc",
+        "display_name": "Spot Verifier",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "swprv",
+        "display_name": "Microsoft Software Shadow Copy Provider",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SynTPEnhService",
+        "display_name": "SynTPEnhService",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SysMain",
+        "display_name": "SysMain",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SystemEventsBroker",
+        "display_name": "System Events Broker",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "TapiSrv",
+        "display_name": "Telephony",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "TermService",
+        "display_name": "Remote Desktop Services",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "TextInputManagementService",
+        "display_name": "Text Input Management Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "Themes",
+        "display_name": "Themes",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "TieringEngineService",
+        "display_name": "Storage Tiers Management",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "TimeBrokerSvc",
+        "display_name": "Time Broker",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "TokenBroker",
+        "display_name": "Web Account Manager",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "TrkWks",
+        "display_name": "Distributed Link Tracking Client",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "TroubleshootingSvc",
+        "display_name": "Recommended Troubleshooting Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "TrustedInstaller",
+        "display_name": "Windows Modules Installer",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "tzautoupdate",
+        "display_name": "Auto Time Zone Updater",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "UmRdpService",
+        "display_name": "Remote Desktop Services UserMode Port Redirector",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "upnphost",
+        "display_name": "UPnP Device Host",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "UserManager",
+        "display_name": "User Manager",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "UsoSvc",
+        "display_name": "Update Orchestrator Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "VaultSvc",
+        "display_name": "Credential Manager",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "vds",
+        "display_name": "Virtual Disk",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vgc",
+        "display_name": "vgc",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmcompute",
+        "display_name": "Hyper-V Host Compute Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicguestinterface",
+        "display_name": "Hyper-V Guest Service Interface",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicheartbeat",
+        "display_name": "Hyper-V Heartbeat Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmickvpexchange",
+        "display_name": "Hyper-V Data Exchange Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicrdv",
+        "display_name": "Hyper-V Remote Desktop Virtualization Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicshutdown",
+        "display_name": "Hyper-V Guest Shutdown Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmictimesync",
+        "display_name": "Hyper-V Time Synchronization Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicvmsession",
+        "display_name": "Hyper-V PowerShell Direct Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicvss",
+        "display_name": "Hyper-V Volume Shadow Copy Requestor",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "VSInstallerElevationService",
+        "display_name": "Visual Studio Installer Elevation Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "VSS",
+        "display_name": "Volume Shadow Copy",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "VSStandardCollectorService150",
+        "display_name": "Visual Studio Standard Collector Service 150",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "w32time",
+        "display_name": "Windows Time",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WalletService",
+        "display_name": "WalletService",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WarpJITSvc",
+        "display_name": "Warp JIT Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wbengine",
+        "display_name": "Block Level Backup Engine Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WbioSrvc",
+        "display_name": "Windows Biometric Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Wcmsvc",
+        "display_name": "Windows Connection Manager",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "wcncsvc",
+        "display_name": "Windows Connect Now - Config Registrar",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WdiServiceHost",
+        "display_name": "Diagnostic Service Host",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "WdiSystemHost",
+        "display_name": "Diagnostic System Host",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "WdNisSvc",
+        "display_name": "Microsoft Defender Antivirus Network Inspection Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "WebClient",
+        "display_name": "WebClient",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "webthreatdefsvc",
+        "display_name": "Web Threat Defense Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "Wecsvc",
+        "display_name": "Windows Event Collector",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WEPHOSTSVC",
+        "display_name": "Windows Encryption Provider Host Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wercplsupport",
+        "display_name": "Problem Reports Control Panel Support",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WerSvc",
+        "display_name": "Windows Error Reporting Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WFDSConMgrSvc",
+        "display_name": "Wi-Fi Direct Services Connection Manager Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "whesvc",
+        "display_name": "Windows Health and Optimized Experiences",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WiaRpc",
+        "display_name": "Still Image Acquisition Events",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WinDefend",
+        "display_name": "Microsoft Defender Antivirus Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WinHttpAutoProxySvc",
+        "display_name": "WinHTTP Web Proxy Auto-Discovery Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "Winmgmt",
+        "display_name": "Windows Management Instrumentation",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WinRM",
+        "display_name": "Windows Remote Management (WS-Management)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wisvc",
+        "display_name": "Windows Insider Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WlanSvc",
+        "display_name": "WLAN AutoConfig",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "wlidsvc",
+        "display_name": "Microsoft Account Sign-in Assistant",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "wlpasvc",
+        "display_name": "Local Profile Assistant Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WManSvc",
+        "display_name": "Windows Management Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wmiApSrv",
+        "display_name": "WMI Performance Adapter",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WMIRegistrationService",
+        "display_name": "Intel(R) Management Engine WMI Provider Registration",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WMPNetworkSvc",
+        "display_name": "Windows Media Player Network Sharing Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "workfolderssvc",
+        "display_name": "Work Folders",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WpcMonSvc",
+        "display_name": "Parental Controls",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WPDBusEnum",
+        "display_name": "Portable Device Enumerator Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WpnService",
+        "display_name": "Windows Push Notifications System Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WSAIFabricSvc",
+        "display_name": "WSAIFabricSvc",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WsaService",
+        "display_name": "Windows Subsystem for Android\u2122",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "wscsvc",
+        "display_name": "Security Center",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WSearch",
+        "display_name": "Windows Search",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WSLService",
+        "display_name": "WSL Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "wuauserv",
+        "display_name": "Windows Update",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wuqisvc",
+        "display_name": "Microsoft Usage and Quality Insights",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "WwanSvc",
+        "display_name": "WWAN AutoConfig",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XblAuthManager",
+        "display_name": "Xbox Live Auth Manager",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XblGameSave",
+        "display_name": "Xbox Live Game Save",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XboxGipSvc",
+        "display_name": "Xbox Accessory Management Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XboxNetApiSvc",
+        "display_name": "Xbox Live Networking Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XTU3SERVICE",
+        "display_name": "XTUOCDriverService",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GoogleUpdaterInternalService157.0.8089.0",
+        "display_name": "Google Updater Internal Service (GoogleUpdaterInternalService157.0.8089.0)",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GoogleUpdaterService157.0.8089.0",
+        "display_name": "Google Updater Service (GoogleUpdaterService157.0.8089.0)",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GamingServicesNet",
+        "display_name": "Gaming Services",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GamingServices",
+        "display_name": "Gaming Services",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "AarSvc_28632990",
+        "display_name": "Agent Activation Runtime_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "BcastDVRUserService_28632990",
+        "display_name": "GameDVR and Broadcast User Service_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "BluetoothUserService_28632990",
+        "display_name": "Bluetooth User Support Service_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "CaptureService_28632990",
+        "display_name": "CaptureService_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "cbdhsvc_28632990",
+        "display_name": "Clipboard User Service_28632990",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CDPUserSvc_28632990",
+        "display_name": "Connected Devices Platform User Service_28632990",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CloudBackupRestoreSvc_28632990",
+        "display_name": "Cloud Backup and Restore Service_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ConsentUxUserSvc_28632990",
+        "display_name": "ConsentUX User Service_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "CredentialEnrollmentManagerUserSvc_28632990",
+        "display_name": "CredentialEnrollmentManagerUserSvc_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DeviceAssociationBrokerSvc_28632990",
+        "display_name": "DeviceAssociationBroker_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DevicePickerUserSvc_28632990",
+        "display_name": "DevicePicker_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DevicesFlowUserSvc_28632990",
+        "display_name": "DevicesFlow_28632990",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "MessagingService_28632990",
+        "display_name": "MessagingService_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NPSMSvc_28632990",
+        "display_name": "Now Playing Session Manager Service_28632990",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "OneSyncSvc_28632990",
+        "display_name": "Sync Host_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "P9RdrService_28632990",
+        "display_name": "P9RdrService_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PenService_28632990",
+        "display_name": "PenService_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PimIndexMaintenanceSvc_28632990",
+        "display_name": "Contact Data_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PrintWorkflowUserSvc_28632990",
+        "display_name": "PrintWorkflow_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "UdkUserSvc_28632990",
+        "display_name": "Udk User Service_28632990",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "UnistoreSvc_28632990",
+        "display_name": "User Data Storage_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "UserDataSvc_28632990",
+        "display_name": "User Data Access_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "webthreatdefusersvc_28632990",
+        "display_name": "Web Threat Defense User Service_28632990",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WpnUserService_28632990",
+        "display_name": "Windows Push Notifications User Service_28632990",
+        "status": "running",
+        "start_type": "automatic"
+      }
+    ],
+    "label": "cpu_overload",
+    "is_anomaly": true
+  },
+  {
+    "snapshot_id": "ff555ac7-5874-49ca-afcc-2c03f03198d7",
+    "timestamp": "2026-10-18T05:47:03.714256Z",
+    "source": "simulated",
+    "collection_latency_ms": 4506.95,
+    "cpu": {
+      "percent": 94.02,
+      "per_core": [
+        95.26,
+        94.83,
+        89.57,
+        97.14,
+        90.39,
+        98.18,
+        96.28,
+        93.9,
+        90.67,
+        98.87,
+        97.74,
+        98.45,
+        91.14,
+        94.18,
+        91.25,
+        91.45
+      ],
+      "freq_mhz": 2400.0,
+      "load_avg_1m": null
+    },
+    "memory": {
+      "total_bytes": 16858472448,
+      "available_bytes": 1806860288,
+      "used_bytes": 15051612160,
+      "percent": 89.3,
+      "swap_total_bytes": 16965795840,
+      "swap_used_bytes": 1680953344,
+      "swap_percent": 9.9
+    },
+    "disks": [
+      {
+        "device": "C:\\",
+        "mountpoint": "C:\\",
+        "total_bytes": 392989503488,
+        "used_bytes": 354839076864,
+        "free_bytes": 38150426624,
+        "percent": 90.3,
+        "read_bytes_sec": null,
+        "write_bytes_sec": null
+      },
+      {
+        "device": "D:\\",
+        "mountpoint": "D:\\",
+        "total_bytes": 314571747328,
+        "used_bytes": 85128302592,
+        "free_bytes": 229443444736,
+        "percent": 27.1,
+        "read_bytes_sec": null,
+        "write_bytes_sec": null
+      },
+      {
+        "device": "E:\\",
+        "mountpoint": "E:\\",
+        "total_bytes": 314571747328,
+        "used_bytes": 232400076800,
+        "free_bytes": 82171670528,
+        "percent": 73.9,
+        "read_bytes_sec": null,
+        "write_bytes_sec": null
+      }
+    ],
+    "networks": [
+      {
+        "interface": "Wi-Fi",
+        "bytes_sent_sec": 471013.1,
+        "bytes_recv_sec": 15569.3,
+        "packets_sent_sec": 51.89,
+        "packets_recv_sec": 168.7,
+        "errors_in": 0,
+        "errors_out": 0,
+        "connections_count": null
+      },
+      {
+        "interface": "vEthernet (WSLCore)",
+        "bytes_sent_sec": 0.0,
+        "bytes_recv_sec": 0.0,
+        "packets_sent_sec": 0.0,
+        "packets_recv_sec": 0.0,
+        "errors_in": 0,
+        "errors_out": 0,
+        "connections_count": null
+      }
+    ],
+    "top_processes": [
+      {
+        "pid": 9991,
+        "name": "crypto_worker_sim.exe",
+        "cpu_percent": 79.92,
+        "memory_mb": 350.0,
+        "status": "running",
+        "username": "SYSTEM",
+        "create_time": null
+      },
+      {
+        "pid": 0,
+        "name": "System Idle Process",
+        "cpu_percent": 847.0,
+        "memory_mb": 0.01,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 16440,
+        "name": "Antigravity.exe",
+        "cpu_percent": 119.9,
+        "memory_mb": 487.49,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 16976,
+        "name": "chrome.exe",
+        "cpu_percent": 85.3,
+        "memory_mb": 980.02,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 17280,
+        "name": "python.exe",
+        "cpu_percent": 82.3,
+        "memory_mb": 1054.8,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 30240,
+        "name": "MsMpEng.exe",
+        "cpu_percent": 78.2,
+        "memory_mb": 318.82,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 18440,
+        "name": "chrome.exe",
+        "cpu_percent": 48.9,
+        "memory_mb": 429.32,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 18684,
+        "name": "Antigravity.exe",
+        "cpu_percent": 45.0,
+        "memory_mb": 193.39,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 4,
+        "name": "System",
+        "cpu_percent": 27.3,
+        "memory_mb": 6.36,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 21124,
+        "name": "dwm.exe",
+        "cpu_percent": 25.3,
+        "memory_mb": 143.3,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 31488,
+        "name": "chrome.exe",
+        "cpu_percent": 24.9,
+        "memory_mb": 858.21,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 1580,
+        "name": "services.exe",
+        "cpu_percent": 18.1,
+        "memory_mb": 14.76,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 2704,
+        "name": "msedgewebview2.exe",
+        "cpu_percent": 14.7,
+        "memory_mb": 69.72,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 6492,
+        "name": "language_server.exe",
+        "cpu_percent": 12.2,
+        "memory_mb": 261.17,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 13852,
+        "name": "servicehost.exe",
+        "cpu_percent": 11.0,
+        "memory_mb": 56.44,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 15656,
+        "name": "audiodg.exe",
+        "cpu_percent": 7.0,
+        "memory_mb": 109.29,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 31248,
+        "name": "OmenCommandCenterBackground.exe",
+        "cpu_percent": 6.7,
+        "memory_mb": 130.66,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 6320,
+        "name": "svchost.exe",
+        "cpu_percent": 6.2,
+        "memory_mb": 44.44,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 23996,
+        "name": "msedgewebview2.exe",
+        "cpu_percent": 6.1,
+        "memory_mb": 76.27,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      },
+      {
+        "pid": 11808,
+        "name": "SynTPEnh.exe",
+        "cpu_percent": 5.5,
+        "memory_mb": 24.38,
+        "status": "running",
+        "username": null,
+        "create_time": null
+      }
+    ],
+    "services": [
+      {
+        "name": "ADPSvc",
+        "display_name": "Aggregated Data Platform Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ALG",
+        "display_name": "Application Layer Gateway Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AntiCheatExpert Protection",
+        "display_name": "AntiCheatExpert Protection",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AppIDSvc",
+        "display_name": "Application Identity",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Appinfo",
+        "display_name": "Application Information",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "AppReadiness",
+        "display_name": "App Readiness",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AppXSvc",
+        "display_name": "AppX Deployment Service (AppXSVC)",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "ApxSvc",
+        "display_name": "Windows Virtual Audio Device Proxy Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "aspnet_state",
+        "display_name": "ASP.NET State Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AudioEndpointBuilder",
+        "display_name": "Windows Audio Endpoint Builder",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "Audiosrv",
+        "display_name": "Windows Audio",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "autotimesvc",
+        "display_name": "Cellular Time",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "AxInstSV",
+        "display_name": "ActiveX Installer (AxInstSV)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "BDESVC",
+        "display_name": "BitLocker Drive Encryption Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "BEService",
+        "display_name": "BattlEye Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "BFE",
+        "display_name": "Base Filtering Engine",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "BITS",
+        "display_name": "Background Intelligent Transfer Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "BrokerInfrastructure",
+        "display_name": "Background Tasks Infrastructure Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "BTAGService",
+        "display_name": "Bluetooth Audio Gateway Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "BthAvctpSvc",
+        "display_name": "AVCTP service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "bthserv",
+        "display_name": "Bluetooth Support Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "camsvc",
+        "display_name": "Capability Access Manager Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CDPSvc",
+        "display_name": "Connected Devices Platform Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CertPropSvc",
+        "display_name": "Certificate Propagation",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ClickToRunSvc",
+        "display_name": "Microsoft Office Click-to-Run Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "ClipSVC",
+        "display_name": "Client License Service (ClipSVC)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "com.docker.service",
+        "display_name": "Docker Desktop Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "COMSysApp",
+        "display_name": "COM+ System Application",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "CoreMessagingRegistrar",
+        "display_name": "CoreMessaging",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "cplspcon",
+        "display_name": "Intel(R) Content Protection HDCP Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CryptSvc",
+        "display_name": "Cryptographic Services",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DcomLaunch",
+        "display_name": "DCOM Server Process Launcher",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "dcsvc",
+        "display_name": "Declared Configuration(DC) service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "defragsvc",
+        "display_name": "Optimize drives",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DeviceAssociationService",
+        "display_name": "Device Association Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "DeviceInstall",
+        "display_name": "Device Install Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "DevQueryBroker",
+        "display_name": "DevQuery Background Discovery Broker",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Dhcp",
+        "display_name": "DHCP Client",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "diagsvc",
+        "display_name": "Diagnostic Execution Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DiagTrack",
+        "display_name": "Connected User Experiences and Telemetry",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DispBrokerDesktopSvc",
+        "display_name": "Display Policy Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DisplayEnhancementService",
+        "display_name": "Display Enhancement Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "DmEnrollmentSvc",
+        "display_name": "Device Management Enrollment Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "dmwappushservice",
+        "display_name": "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Dnscache",
+        "display_name": "DNS Client",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DoSvc",
+        "display_name": "Delivery Optimization",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "dot3svc",
+        "display_name": "Wired AutoConfig",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DPS",
+        "display_name": "Diagnostic Policy Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "dptftcs",
+        "display_name": "Intel(R) Dynamic Tuning Technology Telemetry Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DsmSvc",
+        "display_name": "Device Setup Manager",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DsSvc",
+        "display_name": "Data Sharing Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "DtsApo4Service",
+        "display_name": "DtsApo4Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "DusmSvc",
+        "display_name": "Data Usage",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "EapHost",
+        "display_name": "Extensible Authentication Protocol",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EasyAntiCheat_EOS",
+        "display_name": "Easy Anti-Cheat (Epic Online Services)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "edgeupdate",
+        "display_name": "Microsoft Edge Update Service (edgeupdate)",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "edgeupdatem",
+        "display_name": "Microsoft Edge Update Service (edgeupdatem)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EFS",
+        "display_name": "Encrypting File System (EFS)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "embeddedmode",
+        "display_name": "Embedded Mode",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EntAppSvc",
+        "display_name": "Enterprise App Management Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EpicGamesUpdater",
+        "display_name": "Epic Games Updater",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EpicOnlineServices",
+        "display_name": "Epic Online Services",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "EventLog",
+        "display_name": "Windows Event Log",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "EventSystem",
+        "display_name": "COM+ Event System",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "fdPHost",
+        "display_name": "Function Discovery Provider Host",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "FDResPub",
+        "display_name": "Function Discovery Resource Publication",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "fhsvc",
+        "display_name": "File History Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "FileSyncHelper",
+        "display_name": "FileSyncHelper",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "FontCache",
+        "display_name": "Windows Font Cache Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "FontCache3.0.0.0",
+        "display_name": "Windows Presentation Foundation Font Cache 3.0.0.0",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "FrameServer",
+        "display_name": "Windows Camera Frame Server",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "FrameServerMonitor",
+        "display_name": "Windows Camera Frame Server Monitor",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "FvSvc",
+        "display_name": "NVIDIA FrameView SDK service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "GameInputRedistService",
+        "display_name": "GameInput Redist Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GameInputSvc",
+        "display_name": "GameInput Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "GoogleChromeElevationService",
+        "display_name": "Google Chrome Elevation Service (GoogleChromeElevationService)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "gpsvc",
+        "display_name": "Group Policy Client",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GraphicsPerfSvc",
+        "display_name": "GraphicsPerfSvc",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "hidserv",
+        "display_name": "Human Interface Device Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "hns",
+        "display_name": "Host Network Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "HP Comm Recover",
+        "display_name": "HP Comm Recovery",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPAppHelperCap",
+        "display_name": "HP App Helper HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "hpatchmon",
+        "display_name": "Hotpatch Monitoring Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "HPDiagsCap",
+        "display_name": "HP Diagnostics HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPNetworkCap",
+        "display_name": "HP Network HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPOmenCap",
+        "display_name": "HP Omen HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPPrintScanDoctorService",
+        "display_name": "HP Print Scan Doctor Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HPSysInfoCap",
+        "display_name": "HP System Info HSA Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HpTouchpointAnalyticsService",
+        "display_name": "HP Insights Analytics",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "HvHost",
+        "display_name": "HV Host Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "icssvc",
+        "display_name": "Windows Mobile Hotspot Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "igccservice",
+        "display_name": "Intel(R) Graphics Command Center Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "IKEEXT",
+        "display_name": "IKE and AuthIP IPsec Keying Modules",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "InstallService",
+        "display_name": "Microsoft Store Install Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "Intel(R) Platform License Manager Service",
+        "display_name": "Intel(R) Platform License Manager Service",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "IntelAudioService",
+        "display_name": "Intel(R) Audio Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "InventorySvc",
+        "display_name": "Inventory and Compatibility Appraisal service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "ipfsvc",
+        "display_name": "Intel(R) Innovation Platform Framework Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "iphlpsvc",
+        "display_name": "IP Helper",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "IpxlatCfgSvc",
+        "display_name": "IP Translation Configuration Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "IsoEnvBroker",
+        "display_name": "Isolation Environment Broker",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "jhi_service",
+        "display_name": "Intel(R) Dynamic Application Loader Host Interface Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "KeyIso",
+        "display_name": "CNG Key Isolation",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "KtmRm",
+        "display_name": "KtmRm for Distributed Transaction Coordinator",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "LanmanServer",
+        "display_name": "Server",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "LanmanWorkstation",
+        "display_name": "Workstation",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "lfsvc",
+        "display_name": "Geolocation Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "LicenseManager",
+        "display_name": "Windows License Manager Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "lltdsvc",
+        "display_name": "Link-Layer Topology Discovery Mapper",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "lmhosts",
+        "display_name": "TCP/IP NetBIOS Helper",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "LocalKdc",
+        "display_name": "Kerberos Local Key Distribution Center",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "LSM",
+        "display_name": "Local Session Manager",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "LxpSvc",
+        "display_name": "Language Experience Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "MapsBroker",
+        "display_name": "Downloaded Maps Manager",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "McAfee WebAdvisor",
+        "display_name": "McAfee WebAdvisor",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "McmSvc",
+        "display_name": "Mobile Connectivity Management Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "McpManagementService",
+        "display_name": "McpManagementService",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "MDCoreSvc",
+        "display_name": "Microsoft Defender Core Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "MicrosoftCopilotElevationService",
+        "display_name": "Microsoft Copilot Elevation Service (MicrosoftCopilotElevationService)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "MicrosoftEdgeElevationService",
+        "display_name": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "midisrv",
+        "display_name": "Windows MIDI Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "MongoDB",
+        "display_name": "MongoDB Server (MongoDB)",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "MozillaMaintenance",
+        "display_name": "Mozilla Maintenance Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "mpssvc",
+        "display_name": "Windows Defender Firewall",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "MSDTC",
+        "display_name": "Distributed Transaction Coordinator",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "MSiSCSI",
+        "display_name": "Microsoft iSCSI Initiator Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "msiserver",
+        "display_name": "Windows Installer",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NaturalAuthentication",
+        "display_name": "Natural Authentication",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NcaSvc",
+        "display_name": "Network Connectivity Assistant",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NcbService",
+        "display_name": "Network Connection Broker",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "NcdAutoSetup",
+        "display_name": "Network Connected Devices Auto-Setup",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Netlogon",
+        "display_name": "Netlogon",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Netman",
+        "display_name": "Network Connections",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "netprofm",
+        "display_name": "Network List Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "NetSetupSvc",
+        "display_name": "Network Setup Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "NetTcpPortSharing",
+        "display_name": "Net.Tcp Port Sharing Service",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "NgcCtnrSvc",
+        "display_name": "Microsoft Passport Container",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NgcSvc",
+        "display_name": "Microsoft Passport",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NGS",
+        "display_name": "Nexon Game Security Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NlaSvc",
+        "display_name": "Network Location Awareness",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "nsi",
+        "display_name": "Network Store Interface Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "nvagent",
+        "display_name": "Network Virtualization Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "NvContainerLocalSystem",
+        "display_name": "NVIDIA LocalSystem Container",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NVDisplay.ContainerLocalSystem",
+        "display_name": "NVIDIA Display Container LS",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "OneDrive Updater Service",
+        "display_name": "OneDrive Updater Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PcaSvc",
+        "display_name": "Program Compatibility Assistant Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "pemAgent",
+        "display_name": "Postgres Enterprise Manager - pemAgent",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "PEMHTTPD-x64",
+        "display_name": "PEMHTTPD-x64",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "perceptionsimulation",
+        "display_name": "Windows Perception Simulation Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PerfHost",
+        "display_name": "Performance Counter DLL Host",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "pgagent-pg18",
+        "display_name": "PostgreSQL Scheduling Agent - pgagent-pg18",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "pgbouncer",
+        "display_name": "pgbouncer",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "PhoneSvc",
+        "display_name": "Phone Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "pla",
+        "display_name": "Performance Logs & Alerts",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PlugPlay",
+        "display_name": "Plug and Play",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "PolicyAgent",
+        "display_name": "IPsec Policy Agent",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Power",
+        "display_name": "Power",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "PrintDeviceConfigurationService",
+        "display_name": "Print Device Configuration Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PrintNotify",
+        "display_name": "Printer Extensions and Notifications",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PrintScanBrokerService",
+        "display_name": "PrintScanBrokerService",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ProfSvc",
+        "display_name": "User Profile Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "ProtonVPN Service",
+        "display_name": "ProtonVPN Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Publication Service",
+        "display_name": "Publication Service for xDB Replication Server.",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "PushToInstall",
+        "display_name": "Windows PushToInstall Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "QWAVE",
+        "display_name": "Quality Windows Audio Video Experience",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "RasAuto",
+        "display_name": "Remote Access Auto Connection Manager",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "RasMan",
+        "display_name": "Remote Access Connection Manager",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "Redis",
+        "display_name": "Redis",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "refsdedupsvc",
+        "display_name": "ReFS Dedup Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "RemoteAccess",
+        "display_name": "Routing and Remote Access",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "RemoteRegistry",
+        "display_name": "Remote Registry",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "RetailDemo",
+        "display_name": "Retail Demo Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "RmSvc",
+        "display_name": "Radio Management Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "RpcEptMapper",
+        "display_name": "RPC Endpoint Mapper",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "RpcLocator",
+        "display_name": "Remote Procedure Call (RPC) Locator",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "RpcSs",
+        "display_name": "Remote Procedure Call (RPC)",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "RtkAudioUniversalService",
+        "display_name": "Realtek Audio Universal Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SamSs",
+        "display_name": "Security Accounts Manager",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SCardSvr",
+        "display_name": "Smart Card",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ScDeviceEnum",
+        "display_name": "Smart Card Device Enumeration Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Schedule",
+        "display_name": "Task Scheduler",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SCPolicySvc",
+        "display_name": "Smart Card Removal Policy",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SDRSVC",
+        "display_name": "Windows Backup",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "seclogon",
+        "display_name": "Secondary Logon",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SecurityHealthService",
+        "display_name": "Windows Security Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "SEMgrSvc",
+        "display_name": "Payments and NFC/SE Manager",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SENS",
+        "display_name": "System Event Notification Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SensorDataService",
+        "display_name": "Sensor Data Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SensorService",
+        "display_name": "Sensor Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "SensrSvc",
+        "display_name": "Sensor Monitoring Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SessionEnv",
+        "display_name": "Remote Desktop Configuration",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SharedAccess",
+        "display_name": "Internet Connection Sharing (ICS)",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "ShellHWDetection",
+        "display_name": "Shell Hardware Detection",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "shpamsvc",
+        "display_name": "Shared PC Account Manager",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "smphost",
+        "display_name": "Microsoft Storage Spaces SMP",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SmsRouter",
+        "display_name": "Microsoft Windows SMS Router Service.",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SNMPTrap",
+        "display_name": "SNMP Trap",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Spooler",
+        "display_name": "Print Spooler",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "sppsvc",
+        "display_name": "Software Protection",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SQLWriter",
+        "display_name": "SQL Server VSS Writer",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SSDPSRV",
+        "display_name": "SSDP Discovery",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "ssh-agent",
+        "display_name": "OpenSSH Authentication Agent",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "SstpSvc",
+        "display_name": "Secure Socket Tunneling Protocol Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "StateRepository",
+        "display_name": "State Repository Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "Steam Client Service",
+        "display_name": "Steam Client Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "StiSvc",
+        "display_name": "Windows Image Acquisition (WIA)",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "StorSvc",
+        "display_name": "Storage Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "Subscription Service",
+        "display_name": "Subscription Service for xDB Replication Server.",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "svsvc",
+        "display_name": "Spot Verifier",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "swprv",
+        "display_name": "Microsoft Software Shadow Copy Provider",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "SynTPEnhService",
+        "display_name": "SynTPEnhService",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SysMain",
+        "display_name": "SysMain",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "SystemEventsBroker",
+        "display_name": "System Events Broker",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "TapiSrv",
+        "display_name": "Telephony",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "TermService",
+        "display_name": "Remote Desktop Services",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "TextInputManagementService",
+        "display_name": "Text Input Management Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "Themes",
+        "display_name": "Themes",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "TieringEngineService",
+        "display_name": "Storage Tiers Management",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "TimeBrokerSvc",
+        "display_name": "Time Broker",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "TokenBroker",
+        "display_name": "Web Account Manager",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "TrkWks",
+        "display_name": "Distributed Link Tracking Client",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "TroubleshootingSvc",
+        "display_name": "Recommended Troubleshooting Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "TrustedInstaller",
+        "display_name": "Windows Modules Installer",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "tzautoupdate",
+        "display_name": "Auto Time Zone Updater",
+        "status": "stopped",
+        "start_type": "disabled"
+      },
+      {
+        "name": "UmRdpService",
+        "display_name": "Remote Desktop Services UserMode Port Redirector",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "upnphost",
+        "display_name": "UPnP Device Host",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "UserManager",
+        "display_name": "User Manager",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "UsoSvc",
+        "display_name": "Update Orchestrator Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "VaultSvc",
+        "display_name": "Credential Manager",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "vds",
+        "display_name": "Virtual Disk",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vgc",
+        "display_name": "vgc",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmcompute",
+        "display_name": "Hyper-V Host Compute Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicguestinterface",
+        "display_name": "Hyper-V Guest Service Interface",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicheartbeat",
+        "display_name": "Hyper-V Heartbeat Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmickvpexchange",
+        "display_name": "Hyper-V Data Exchange Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicrdv",
+        "display_name": "Hyper-V Remote Desktop Virtualization Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicshutdown",
+        "display_name": "Hyper-V Guest Shutdown Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmictimesync",
+        "display_name": "Hyper-V Time Synchronization Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicvmsession",
+        "display_name": "Hyper-V PowerShell Direct Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "vmicvss",
+        "display_name": "Hyper-V Volume Shadow Copy Requestor",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "VSInstallerElevationService",
+        "display_name": "Visual Studio Installer Elevation Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "VSS",
+        "display_name": "Volume Shadow Copy",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "VSStandardCollectorService150",
+        "display_name": "Visual Studio Standard Collector Service 150",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "w32time",
+        "display_name": "Windows Time",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WalletService",
+        "display_name": "WalletService",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WarpJITSvc",
+        "display_name": "Warp JIT Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wbengine",
+        "display_name": "Block Level Backup Engine Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WbioSrvc",
+        "display_name": "Windows Biometric Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "Wcmsvc",
+        "display_name": "Windows Connection Manager",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "wcncsvc",
+        "display_name": "Windows Connect Now - Config Registrar",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WdiServiceHost",
+        "display_name": "Diagnostic Service Host",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "WdiSystemHost",
+        "display_name": "Diagnostic System Host",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "WdNisSvc",
+        "display_name": "Microsoft Defender Antivirus Network Inspection Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "WebClient",
+        "display_name": "WebClient",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "webthreatdefsvc",
+        "display_name": "Web Threat Defense Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "Wecsvc",
+        "display_name": "Windows Event Collector",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WEPHOSTSVC",
+        "display_name": "Windows Encryption Provider Host Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wercplsupport",
+        "display_name": "Problem Reports Control Panel Support",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WerSvc",
+        "display_name": "Windows Error Reporting Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WFDSConMgrSvc",
+        "display_name": "Wi-Fi Direct Services Connection Manager Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "whesvc",
+        "display_name": "Windows Health and Optimized Experiences",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WiaRpc",
+        "display_name": "Still Image Acquisition Events",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WinDefend",
+        "display_name": "Microsoft Defender Antivirus Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WinHttpAutoProxySvc",
+        "display_name": "WinHTTP Web Proxy Auto-Discovery Service",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "Winmgmt",
+        "display_name": "Windows Management Instrumentation",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WinRM",
+        "display_name": "Windows Remote Management (WS-Management)",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wisvc",
+        "display_name": "Windows Insider Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WlanSvc",
+        "display_name": "WLAN AutoConfig",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "wlidsvc",
+        "display_name": "Microsoft Account Sign-in Assistant",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "wlpasvc",
+        "display_name": "Local Profile Assistant Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WManSvc",
+        "display_name": "Windows Management Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wmiApSrv",
+        "display_name": "WMI Performance Adapter",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WMIRegistrationService",
+        "display_name": "Intel(R) Management Engine WMI Provider Registration",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WMPNetworkSvc",
+        "display_name": "Windows Media Player Network Sharing Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "workfolderssvc",
+        "display_name": "Work Folders",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WpcMonSvc",
+        "display_name": "Parental Controls",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WPDBusEnum",
+        "display_name": "Portable Device Enumerator Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "WpnService",
+        "display_name": "Windows Push Notifications System Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WSAIFabricSvc",
+        "display_name": "WSAIFabricSvc",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WsaService",
+        "display_name": "Windows Subsystem for Android\u2122",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "wscsvc",
+        "display_name": "Security Center",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WSearch",
+        "display_name": "Windows Search",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WSLService",
+        "display_name": "WSL Service",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "wuauserv",
+        "display_name": "Windows Update",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "wuqisvc",
+        "display_name": "Microsoft Usage and Quality Insights",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "WwanSvc",
+        "display_name": "WWAN AutoConfig",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XblAuthManager",
+        "display_name": "Xbox Live Auth Manager",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XblGameSave",
+        "display_name": "Xbox Live Game Save",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XboxGipSvc",
+        "display_name": "Xbox Accessory Management Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XboxNetApiSvc",
+        "display_name": "Xbox Live Networking Service",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "XTU3SERVICE",
+        "display_name": "XTUOCDriverService",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GoogleUpdaterInternalService157.0.8089.0",
+        "display_name": "Google Updater Internal Service (GoogleUpdaterInternalService157.0.8089.0)",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GoogleUpdaterService157.0.8089.0",
+        "display_name": "Google Updater Service (GoogleUpdaterService157.0.8089.0)",
+        "status": "stopped",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GamingServicesNet",
+        "display_name": "Gaming Services",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "GamingServices",
+        "display_name": "Gaming Services",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "AarSvc_28632990",
+        "display_name": "Agent Activation Runtime_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "BcastDVRUserService_28632990",
+        "display_name": "GameDVR and Broadcast User Service_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "BluetoothUserService_28632990",
+        "display_name": "Bluetooth User Support Service_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "CaptureService_28632990",
+        "display_name": "CaptureService_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "cbdhsvc_28632990",
+        "display_name": "Clipboard User Service_28632990",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CDPUserSvc_28632990",
+        "display_name": "Connected Devices Platform User Service_28632990",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "CloudBackupRestoreSvc_28632990",
+        "display_name": "Cloud Backup and Restore Service_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "ConsentUxUserSvc_28632990",
+        "display_name": "ConsentUX User Service_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "CredentialEnrollmentManagerUserSvc_28632990",
+        "display_name": "CredentialEnrollmentManagerUserSvc_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DeviceAssociationBrokerSvc_28632990",
+        "display_name": "DeviceAssociationBroker_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DevicePickerUserSvc_28632990",
+        "display_name": "DevicePicker_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "DevicesFlowUserSvc_28632990",
+        "display_name": "DevicesFlow_28632990",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "MessagingService_28632990",
+        "display_name": "MessagingService_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "NPSMSvc_28632990",
+        "display_name": "Now Playing Session Manager Service_28632990",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "OneSyncSvc_28632990",
+        "display_name": "Sync Host_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "P9RdrService_28632990",
+        "display_name": "P9RdrService_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PenService_28632990",
+        "display_name": "PenService_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PimIndexMaintenanceSvc_28632990",
+        "display_name": "Contact Data_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "PrintWorkflowUserSvc_28632990",
+        "display_name": "PrintWorkflow_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "UdkUserSvc_28632990",
+        "display_name": "Udk User Service_28632990",
+        "status": "running",
+        "start_type": "manual"
+      },
+      {
+        "name": "UnistoreSvc_28632990",
+        "display_name": "User Data Storage_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "UserDataSvc_28632990",
+        "display_name": "User Data Access_28632990",
+        "status": "stopped",
+        "start_type": "manual"
+      },
+      {
+        "name": "webthreatdefusersvc_28632990",
+        "display_name": "Web Threat Defense User Service_28632990",
+        "status": "running",
+        "start_type": "automatic"
+      },
+      {
+        "name": "WpnUserService_28632990",
+        "display_name": "Windows Push Notifications User Service_28632990",
+        "status": "running",
+        "start_type": "automatic"
+      }
+    ],
+    "label": "cpu_overload",
+    "is_anomaly": true
+  }
+]

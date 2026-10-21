@@ -1,0 +1,3 @@
+snapshot_id,timestamp,source,label,is_anomaly,cpu_percent,memory_percent,network_bytes_sent_sec,disk_write_bytes_sec,top_process,top_process_cpu
+d5009743-2e6e-435e-8e06-e12e35a86454,2026-10-18T09:13:00.306572+00:00,simulated,cpu_overload,True,90.83,93.7,9399.6,0.0,crypto_worker_sim.exe,77.2
+be86b676-658f-4b33-ad71-341f41b943a5,2026-10-18T09:13:00.307571+00:00,simulated,cpu_overload,True,91.65,93.7,9399.6,0.0,crypto_worker_sim.exe,77.91

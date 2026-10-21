@@ -1,0 +1,11 @@
+snapshot_id,timestamp,source,label,is_anomaly,cpu_percent,memory_percent,network_bytes_sent_sec,disk_write_bytes_sec,top_process,top_process_cpu
+ab351468-3650-400b-8266-3f37ba6df49f,2026-10-19T05:02:01.305280+00:00,simulated,cpu_overload,True,78.93,90.8,2056.6,0.0,crypto_worker_sim.exe,67.09
+202be7f8-78b4-45b9-9cc4-2d31fab42f90,2026-10-19T05:02:01.307296+00:00,simulated,cpu_overload,True,81.63,90.8,2056.6,0.0,crypto_worker_sim.exe,69.38
+25d6e734-c36a-4417-9149-146aaa687f38,2026-10-19T05:02:01.309305+00:00,simulated,cpu_overload,True,85.81,90.8,2056.6,0.0,crypto_worker_sim.exe,72.94
+88cd3e1c-601b-44df-be2b-72da0da3b241,2026-10-19T05:02:01.328524+00:00,simulated,cpu_overload,True,92.1,90.8,2056.6,0.0,crypto_worker_sim.exe,78.28
+a3ed5ca9-d8b3-4556-8969-c45a3bbf7cf1,2026-10-19T05:02:01.330523+00:00,simulated,cpu_overload,True,95.99,90.8,2056.6,0.0,crypto_worker_sim.exe,81.6
+adcce360-4884-4f93-adf7-cdd0e81cbbd1,2026-10-19T05:02:01.332515+00:00,simulated,cpu_overload,True,93.04,90.8,2056.6,0.0,crypto_worker_sim.exe,79.08
+cf09d602-e07e-4ec4-a24a-700d40b3f59a,2026-10-19T05:02:01.334038+00:00,simulated,cpu_overload,True,95.39,90.8,2056.6,0.0,crypto_worker_sim.exe,81.08
+b032e5ea-d8fa-4dc8-9b89-e871dcd57247,2026-10-19T05:02:01.338117+00:00,simulated,cpu_overload,True,96.04,90.8,2056.6,0.0,crypto_worker_sim.exe,81.64
+e45d0570-95d9-483c-b821-0a6b0a529dfd,2026-10-19T05:02:01.338677+00:00,simulated,cpu_overload,True,96.29,90.8,2056.6,0.0,crypto_worker_sim.exe,81.85
+4d66181f-18df-474d-90a2-8849f70e9133,2026-10-19T05:02:01.357353+00:00,simulated,cpu_overload,True,95.59,90.8,2056.6,0.0,crypto_worker_sim.exe,81.25

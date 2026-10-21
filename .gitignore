@@ -1,0 +1,78 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env
+*.env.local
+*.env.production
+
+# ─── Datasets & Data Cache ────────────────────────────────────────────────────
+# Ignore large processed caches, but keep the pushable raw and simulated datasets
+data/processed/
+!data/raw/train_test/*.csv
+!data/simulated/*
+
+# ─── Trained Models ───────────────────────────────────────────────────────────
+# Keep lightweight trained PyTorch models (<100KB) and training artifacts
+!models/*.pt
+!models/*.json
+!models/*.joblib
+models/*.pth
+models/*.bin
+models/*.ckpt
+
+# ─── Vector Store Index ───────────────────────────────────────────────────────
+vector_store/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ─── Reports ──────────────────────────────────────────────────────────────────
+# Keep evaluation benchmark reports
+!reports/*.md
+!reports/*.json
+
+# ─── SQLite Database ──────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── Node.js ──────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ─── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Testing ──────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Type stubs ───────────────────────────────────────────────────────────────
+*.pyi
